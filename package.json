@@ -1,0 +1,37 @@
+{
+  "name": "interview",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "hatai <htaigen@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint",
+    "serve": "firebase serve --only hosting",
+    "deploy": "firebase deploy --only hosting"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.5",
+    "@fortawesome/fontawesome-free-brands": "^5.0.10",
+    "@fortawesome/vue-fontawesome": "^0.0.22",
+    "@nuxtjs/pwa": "^2.0.8",
+    "element-ui": "^2.3.5",
+    "firebase": "^4.13.0",
+    "normalize.css": "^8.0.0",
+    "nuxt": "^1.4.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-vue": "^4.5.0",
+    "firebase-tools": "^3.18.4",
+    "less": "^3.0.1",
+    "less-loader": "^4.1.0"
+  }
+}
